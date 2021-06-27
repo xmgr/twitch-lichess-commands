@@ -3,7 +3,7 @@
 Eine kleine Sammlung an Befehlen um beispielsweise lichess ratings oder Spieldauer-Statistiken abzurufen, die sich
 direkt im Twitch Chat nutzen lassen.
 
-Für jede verfügbare Funktion ist hier eine Anleitung verlinkt, um die Befehle in 
+Für jede verfügbare Funktion ist hier eine Anleitung verlinkt, um die Befehle in
 **StreamElements**, **Nightbot** oder **Discord** einfach einzubinden.
 
 ## Liste der Funktionen
@@ -33,7 +33,7 @@ Egal ob du Nightbot oder StreamElements benutzt, in jedem Fall muss der Bot Mod-
 beigetreten sein - ist zwar eine ganz offensichtliche Voraussetzung, aber ich erwähne es der Vollständigkeit halber
 trotzdem ;)
 
-## Einrichtung auf Discord
+### Einrichtung auf Discord
 
 Wenn du die oberen Befehle für den Nightbot eingerichtet hast und dein Nightbot mit deinem Discord Server verknüpft ist,
 lassen sich die Befehle auch auf Discord benutzen. Das heißt du rufst https://nightbot.tv/integrations auf und lässt
@@ -48,7 +48,7 @@ Diese nicen Streamer nutzen die lichess Befehle bereits für ihr Twitch oder auf
 - [Colt_TV1](https://www.twitch.tv/colt_tv1)
 - [chris1996](https://www.twitch.tv/chris1996)
 
-# Support
+## Support
 
 Bei Fragen, schreib mir gerne auf Discord (`xmgr#2295`) oder [Telegram](https://t.me/xmgr1).
 
