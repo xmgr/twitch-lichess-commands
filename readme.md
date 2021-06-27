@@ -3,13 +3,8 @@
 Eine kleine Sammlung an Befehlen um beispielsweise lichess ratings oder Spieldauer-Statistiken abzurufen, die sich
 direkt im Twitch Chat nutzen lassen.
 
-### Einrichtung eines Befehls
-
-Für jede verfügbare Funktion ist hier eine Anleitung verlinkt, um die Befehle in StreamElements oder Nightbot einfach
-einzubinden.
-
-> Tipp: falls du Nightbot benutzt und Nightbot auf deinen Discord Server gejoined
-> ist, kannst du die ganzen Befehle auch dort nutzen. Dazu gibt's weiter unten noch einen Abschnitt.
+Für jede verfügbare Funktion ist hier eine Anleitung verlinkt, um die Befehle in 
+**StreamElements**, **Nightbot** oder **Discord** einfach einzubinden.
 
 ## Liste der Funktionen
 
