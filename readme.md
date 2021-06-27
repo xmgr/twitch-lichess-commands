@@ -48,8 +48,11 @@ Diese nicen Streamer nutzen die lichess Befehle bereits für ihr Twitch oder auf
 - [Colt_TV1](https://www.twitch.tv/colt_tv1)
 - [chris1996](https://www.twitch.tv/chris1996)
 
+# Support
+
+Bei Fragen, schreib mir gerne auf Discord (`xmgr#2295`) oder [Telegram](https://t.me/xmgr1).
+
 ## Credits
 
 Daumen-Hoch geht raus an [Willeinhelm](https://www.twitch.tv/willeinhelm)
 und [Wuestenigel](https://www.twitch.tv/wuestenigel) die den Denkanstoß für die Idee gezündet haben :)
-
