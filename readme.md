@@ -15,27 +15,28 @@ einzubinden.
 
 Eine Auflistung der verfügbaren Befehle
 
-### lichess Rating abrufen
+### lichess Rating abrufen ([Anleitung](de/rating.md))
 
 Durch Eingabe von `!elo <user>` lässt sich das lichess Rating im Chat ausgeben.
 
-Lies [hier](de/rating.md) wie du es einbinden kannst.
-
 ![lichess rating](images/lichess-rating-example.png)
 
-### Spieldauer und Anzahl gespielter Partien
+**Lies [hier](de/rating.md) wie du es einbinden kannst**.
+
+### Spieldauer Statistik ([Anleitung](de/playtime.md))
 
 Einfach `!playtime <user>` eingeben, um zu sehen wieviele Partien der lichess Benutzer bereits gespielt und wieviel Zeit
 er insgesamt mit Schachspielen verbracht hat.
 
-Du kannst [hier](de/playtime.md) lesen wie man den Befehl aufsetzt.
-
 ![Playtime](images/playtime-example.png)
+
+Du kannst **[hier](de/playtime.md) lesen** wie man den Befehl aufsetzt.
 
 ## Allgemeines zur Einrichtung
 
 Egal ob du Nightbot oder StreamElements benutzt, in jedem Fall muss der Bot Mod-Berechtigungen haben und dem Chat
-beigetreten sein - ist zwar eine ganz offensichtliche Voraussetzung, aber ich erwähne es der Vollständigkeit halber trotzdem ;)
+beigetreten sein - ist zwar eine ganz offensichtliche Voraussetzung, aber ich erwähne es der Vollständigkeit halber
+trotzdem ;)
 
 ## Einrichtung auf Discord
 
@@ -44,4 +45,16 @@ lassen sich die Befehle auch auf Discord benutzen. Das heißt du rufst https://n
 einfach den Nightbot per Klick auf deinen Discord Server joinen und das war's, mehr muss nicht gemacht werden.
 
 ![Nightbot auf Discord](images/nightbot-discord.png)
+
+## In Aktion
+
+Diese nicen Streamer nutzen die lichess Befehle bereits für ihr Twitch oder auf ihren Discord Servern:
+
+- [Colt_TV1](https://www.twitch.tv/colt_tv1)
+- [chris1996](https://www.twitch.tv/chris1996)
+
+## Credits
+
+Daumen-Hoch geht raus an [Willeinhelm](https://www.twitch.tv/willeinhelm)
+und [Wuestenigel](https://www.twitch.tv/wuestenigel) die den Denkanstoß für die Idee gezündet haben :)
 
