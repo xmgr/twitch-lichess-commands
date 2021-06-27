@@ -21,7 +21,7 @@ Standardmäßig werden die Ratings für Klassisch, Rapid, Blitz, Bullet und Ultr
 Mit dem Befehl `!elo <user> all` lassen sich alle Ratings abrufen, das heißt auch Horde, Chess960, KingOfTheHill,
 Puzzle-Rating etc..
 
-![Alle Ratings](../images/img.png)
+![Alle Ratings](../images/elo-all-ratings.png)
 
 Randinfo: statt `all` kann auch `alle` oder `*` geschrieben werden.
 
