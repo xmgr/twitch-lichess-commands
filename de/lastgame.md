@@ -50,3 +50,15 @@ $(urlfetch json https://xmgr.io/api/lichess/lastgame?username=$(querystring))
 ```
 
 Klicke den "Submit" button um den Befehl zu speichern.
+
+# Anpassungen
+
+## Befehl ohne Angabe des Benutzernamens verwenden
+
+Natürlich hast du auch die Möglichkeit, im Befehl statt der Variable direkt deinen lichess Benutzernamen
+reinzuschreiben. Somit kann man dann im Chat einfach nur `!lastgame` und man wird dein letztes Spiel sehen.
+
+Alternativ lässt sich das erweitern, sodass man Dein letztes Spiel mit einem bestimmten Gegner abfragen kann, indem man
+den entsprechenden Part bei Nightbot in der Form `...?username=BENUTZERNAME:$(querystring)` schreibt bzw für
+StreamElements mit `...?username=BENUTZERNAME:${1|0}`. Im Chat würde man dann `!lastgame ABC` eingeben und man quasi
+würde die letzte Partie von "BENUTZERNAME" gegen "ABC" sehen.

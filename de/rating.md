@@ -68,6 +68,13 @@ $(urlfetch json https://xmgr.io/api/lichess/rating?username=$(querystring))
 
 Klicke den "Submit" button um den Befehl zu speichern.
 
+# Anpassungen
+
+## Befehl ohne Angabe des lichess Benutzernamens verwenden
+
+Du kannst den Platzhalter für den Benutzernamen jeweils entfernen und direkt fest Deinen lichess Benutzernamen
+eintragen, sodass man mit Eingabe von `!elo` automatisch Dein Rating zu sehen bekommt.
+
 # Zusätzliche Funktionen (optional)
 
 Bei Bedarf gibt es die Möglichkeit, die API URL mit zusätzlichen Argumenten aufzurufen.

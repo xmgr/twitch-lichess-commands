@@ -20,8 +20,8 @@ Accounts ist. Statt `!playtime` kannst du natürlich gern auch etwas anderes als
 Gehe zu https://streamelements.com/dashboard/bot-commands/custom-commands und füge über den "Add new command" einen
 neuen Befehl hinzu.
 
-Trage als "Command name" sowas wie `!playtime` ein. Welchen Befehlsnamen du dafür gern nehmen möchtest, ist
-ganz dir überlassen.
+Trage als "Command name" sowas wie `!playtime` ein. Welchen Befehlsnamen du dafür gern nehmen möchtest, ist ganz dir
+überlassen.
 
 Bei Response muss nun folgendes eingegeben werden:
 
@@ -45,3 +45,10 @@ $(urlfetch json https://xmgr.io/api/lichess/playtime?username=$(querystring))
 ```
 
 Klicke den "Submit" button um den Befehl zu speichern.
+
+# Anpassungen
+
+## Statistik ohne Angabe des Benutzernamens verwenden
+
+Du kannst in der API URL statt der Variable auch direkt deinen lichess Benutzernamen eintragen. So kann man im Chat
+durch Eingabe von `!playtime` immer dein Rating sehen.
