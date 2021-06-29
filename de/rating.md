@@ -25,6 +25,9 @@ Puzzle-Rating etc..
 
 Randinfo: statt `all` kann auch `alle` oder `*` geschrieben werden.
 
+> Hinweis: es werden nur Ratings angezeigt, für die auch ein Wert vorliegt. Wenn
+> z.B. jemand noch nie Antichess oder Chess960 gespielt hat, wird das auch nicht angezeigt - macht ja Sinn.
+
 ### Selektive Ratings anzeigen
 
 Bei Bedarf können auch nur einzelne Ratings abgefragt werden, durch Komma getrennt auch mehrere davon, zum Beispiel
@@ -69,6 +72,9 @@ Klicke den "Submit" button um den Befehl zu speichern.
 
 Bei Bedarf gibt es die Möglichkeit, die API URL mit zusätzlichen Argumenten aufzurufen.
 
+> Die Beispiel-URLS sind die realen API URL Adressen, das heißt du überträgst die
+> Parameter logischerweise sinngemäß in den Befehl.
+
 > Der Benutzername wird mit `username` immer übergeben, das siehst du
 > an https://xmgr.io/api/lichess/rating?username=lichess_benutzername
 
@@ -89,3 +95,9 @@ Beispiel: https://xmgr.io/api/lichess/rating?prog=0&username=schachpanda_yt
 Du kannst beliebigen Text zwischen die einzelnen Ratings setzen, indem du `sep` einen Wert gibst.
 
 Beispiel: https://xmgr.io/api/lichess/rating?sep=%20|%20&icon=0&username=orcatec
+
+### Einleitungstext weglassen
+
+Der Anfang mit "username's lichess Rating" kann weggelassen werden, indem `introtext` auf `0` gesetzt wird.
+
+Beispiel: https://xmgr.io/api/lichess/rating?username=willeinhelm&introtext=0

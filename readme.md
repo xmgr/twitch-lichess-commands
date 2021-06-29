@@ -6,26 +6,32 @@ direkt im Twitch Chat nutzen lassen.
 Für jede verfügbare Funktion ist hier eine Anleitung verlinkt, um die Befehle in
 **StreamElements**, **Nightbot** oder **Discord** einfach einzubinden.
 
-## Liste der Funktionen
+## Quicklinks
 
-Eine Auflistung der verfügbaren Befehle
+Um direkt zur Einrichtung zu springen:
 
-### lichess Rating abrufen ([Anleitung](de/rating.md))
+- [lichess Rating abrufen](de/rating.md) (`!elo <user>`)
+- [Spieldauer Statistik](de/playtime.md) (`!playtime <user>`)
+- [Letzte Partie abrufen](de/lastgame.md) (`!lastgame <user>`)
+
+## lichess Rating abrufen ([Anleitung](de/rating.md))
 
 Durch Eingabe von `!elo <user>` lässt sich das lichess Rating im Chat ausgeben.
 
 ![lichess rating](images/lichess-rating-example.png)
 
-**Lies [hier](de/rating.md) wie du es einbinden kannst**.
-
-### Spieldauer Statistik ([Anleitung](de/playtime.md))
+## Spieldauer Statistik ([Anleitung](de/playtime.md))
 
 Einfach `!playtime <user>` eingeben, um zu sehen wieviele Partien der lichess Benutzer bereits gespielt und wieviel Zeit
 er insgesamt mit Schachspielen verbracht hat.
 
 ![Playtime](images/playtime-example.png)
 
-Du kannst **[hier](de/playtime.md) lesen** wie man den Befehl aufsetzt.
+## Letzte Partie abrufen ([Anleitung](de/lastgame.md))
+
+Zeigt mit `!lastgame <user>` das Ergebnis der von diesem Benutzer zuletzt gespielten Partie.
+
+![Letzte Partie](images/lastgame.png)
 
 ## Allgemeines zur Einrichtung
 
@@ -36,8 +42,8 @@ trotzdem ;)
 ### Einrichtung auf Discord
 
 Wenn du die oberen Befehle für den Nightbot eingerichtet hast und dein Nightbot mit deinem Discord Server verknüpft ist,
-lassen sich die Befehle auch auf Discord benutzen. Das heißt du rufst https://nightbot.tv/integrations auf und lässt
-einfach den Nightbot per Klick auf deinen Discord Server joinen und das war's, mehr muss nicht gemacht werden.
+lassen sich die Befehle auch auf Discord benutzen. Rufe https://nightbot.tv/integrations auf und lasse einfach den
+Nightbot per Klick auf deinen Discord Server joinen - das war's schon.
 
 ![Nightbot auf Discord](images/nightbot-discord.png)
 
@@ -55,4 +61,4 @@ Bei Fragen, schreib mir gerne auf Discord (`xmgr#2295`) oder [Telegram](https://
 ## Credits
 
 Daumen-Hoch geht raus an [Willeinhelm](https://www.twitch.tv/willeinhelm)
-und [Wuestenigel](https://www.twitch.tv/wuestenigel) die den Denkanstoß für die Idee gezündet haben :)
+und [Wuestenigel](https://www.twitch.tv/wuestenigel) die den Denkanstoß für diese Idee gezündet haben :)
