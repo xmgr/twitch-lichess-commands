@@ -6,6 +6,8 @@ direkt im Twitch Chat nutzen lassen.
 Für jede verfügbare Funktion ist hier eine Anleitung verlinkt, um die Befehle in
 **StreamElements**, **Nightbot** oder **Discord** einfach einzubinden.
 
+> Info: there's also an [english manual](readme-en.md) available.
+
 ## Quicklinks
 
 Um direkt zur Einrichtung zu springen:
