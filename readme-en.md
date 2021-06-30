@@ -11,24 +11,24 @@ them in **StreamElements**, **Nightbot** or **Discord**.
 
 If you wanna directly dive into setup manual:
 
-- [lichess Rating abrufen](de/rating.md) (`!elo <user>`)
-- [Spieldauer Statistik](de/playtime.md) (`!playtime <user>`)
-- [Letzte Partie abrufen](de/lastgame.md) (`!lastgame <user>`)
+- [lichess Rating abrufen](en/rating.md) (`!elo <user>`)
+- [Spieldauer Statistik](en/playtime.md) (`!playtime <user>`)
+- [Letzte Partie abrufen](en/lastgame.md) (`!lastgame <user>`)
 
-## Show lichess rating ([Manual](de/rating.md))
+## Show lichess rating ([Manual](en/rating.md))
 
 By entering `!elo <user>` the rating of a lichess user is shown in the chat:
 
 ![lichess rating](images/lichess-rating-example.png)
 
-## General stats ([Manual](de/playtime.md))
+## General stats ([Manual](en/playtime.md))
 
 Just type `!playtime <user>` to see how many games that user has already played and how
 much time he spent on playing games on lichess in summary.
 
 ![Playtime](images/playtime-example.png)
 
-## Fetch last game results ([Manual](de/lastgame.md))
+## Fetch last game results ([Manual](en/lastgame.md))
 
 Write `!lastgame <user>` to fetch the result of the most recently played game of the specified user.
 
@@ -55,6 +55,7 @@ Those nice streamers already use the commands for their Twitch or Discord:
 
 - [Colt_TV1](https://www.twitch.tv/colt_tv1)
 - [chris1996](https://www.twitch.tv/chris1996)
+- [FritziSchach](https://www.twitch.tv/fritzischach)
 
 ## Support
 
