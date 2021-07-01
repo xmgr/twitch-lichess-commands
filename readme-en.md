@@ -11,9 +11,9 @@ them in **StreamElements**, **Nightbot** or **Discord**.
 
 If you wanna directly dive into setup manual:
 
-- [lichess Rating abrufen](en/rating.md) (`!elo <user>`)
-- [Spieldauer Statistik](en/playtime.md) (`!playtime <user>`)
-- [Letzte Partie abrufen](en/lastgame.md) (`!lastgame <user>`)
+- [lichess rating](en/rating.md) (`!elo <user>`)
+- [Playtime stats](en/playtime.md) (`!playtime <user>`)
+- [Last played game results](en/lastgame.md) (`!lastgame <user>`)
 
 ## Show lichess rating ([Manual](en/rating.md))
 
