@@ -56,6 +56,7 @@ Those nice streamers already use the commands for their Twitch or Discord:
 - [Colt_TV1](https://www.twitch.tv/colt_tv1)
 - [chris1996](https://www.twitch.tv/chris1996)
 - [FritziSchach](https://www.twitch.tv/fritzischach)
+- [Willeinhelm](https://www.twitch.tv/willeinhelm)
 
 ## Support
 

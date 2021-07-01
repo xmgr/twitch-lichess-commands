@@ -1,54 +1,51 @@
-# Spieldauer Statistik
+# Playtime stats
 
-Der Befehl holt sich für den angegebenen lichess Benutzer die Anzahl gespielter Partien sowie die Dauer die man auf
-lichess insgesamt mit Schachspielen verbracht hat.
+This command fetches the amount of games played on lichess as well as the amount 
+of time spent playing chess in summary.
 
-## Benutzung
+## Usage
 
-Die Nutzung des Befehls ist sehr einfach, man gibt `!playtime <user>` ein, wobei `<user>` der Benutzername des lichess
-Accounts ist. Statt `!playtime` kannst du natürlich gern auch etwas anderes als Befehlsnamen verwenden, das ist dir
-überlassen.
+The usage is very simple, you type `!playtime <user>` (in which `<user>` means the lichess username).
+You can, of course, set another name for your command - just as you desire.
 
-> Die Groß-/Kleinschreibung des lichess Benutzernamens spielt keine Rolle ;)
+> The upper-/ lower case of the username doesn't matter.
 
 ![img.png](../images/playtime-fritzi.png)
 
-# Einrichtung
+# Setup
 
-## Einrichtung in StreamElements
+## Setup in StreamElements
 
-Gehe zu https://streamelements.com/dashboard/bot-commands/custom-commands und füge über den "Add new command" einen
-neuen Befehl hinzu.
+Navigate to https://streamelements.com/dashboard/bot-commands/custom-commands and hit the "Add new command" button.
 
-Trage als "Command name" sowas wie `!playtime` ein. Welchen Befehlsnamen du dafür gern nehmen möchtest, ist ganz dir
-überlassen.
+For "Command name" type `!playtime` (or something else).
 
-Bei Response muss nun folgendes eingegeben werden:
+For the "Response" please insert the following line:
 
 ```
 ${urlfetch https://xmgr.io/api/lichess/playtime?username=${1}}
 ```
 
-Jetzt auf "Save" klicken um den Befehl zu speichern.
+Click the "Save" button to save your changes.
 
-## Einrichtung im Nightbot
+## Setup in Nightbot
 
-Gehe zu https://nightbot.tv/commands/custom und klicke rechts auf den Button
-"+ Add Command".
+Open https://nightbot.tv/commands/custom and hit the "+ Add Command" button.
 
-Gib bei "Command" den Namen des Befehls ein, z.B. `!playtime`.
+For "Command" enter `!playtime` (or something else).
 
-Als Message gib folgendes ein:
+In the "Message" input field, insert the following line:
 
 ```
 $(urlfetch json https://xmgr.io/api/lichess/playtime?username=$(querystring))
 ```
 
-Klicke den "Submit" button um den Befehl zu speichern.
+Now hit the "Submit" button to save your command.
 
-# Anpassungen
+# Additional options
 
-## Statistik ohne Angabe des Benutzernamens verwenden
+## Use command without typing the username
 
-Du kannst in der API URL statt der Variable auch direkt deinen lichess Benutzernamen eintragen. So kann man im Chat
-durch Eingabe von `!playtime` immer dein Rating sehen.
+Alternatively you could just put your literal lichess username instead of the [variable](help/variables.md). Using the
+`!playtime` command would then always response with the data for your account and you wouldn't need
+to type in the lichess username after the command anymore.

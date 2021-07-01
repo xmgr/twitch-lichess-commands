@@ -1,110 +1,97 @@
-# Lichess Rating im Chat abfragen
+# Show Lichess Rating in Chat
 
-Der Befehl holt sich für den angegebenen Benutzer die lichess Ratings und gibt sie im Chat aus.
+This command fetches the lichess ratings for a given user.
 
-## Benutzung
+## Usage
 
-Die Nutzung des Befehls ist sehr einfach, man gibt `!elo <user>` ein, wobei `<user>` der Benutzername des lichess
-Accounts ist. Statt `!elo` kannst du natürlich gern auch etwas anderes als Befehlsnamen verwenden, wie z.B. `!rating` -
-das ist dir überlassen.
+The usage is quite simple, you type `!elo <user>` and that's it.
 
-> Die Groß-/Kleinschreibung des lichess Benutzernamens spielt keine Rolle ;)
+> the upper-/lower case for the lichess username doesn't matter
 
-### Geläufige Ratings abrufen
+### Fetch common ratings (default)
 
-Standardmäßig werden die Ratings für Klassisch, Rapid, Blitz, Bullet und Ultrabullet angezeigt, zum Beispiel:
+By default the ratings for classical, rapid, blitz, bullet and ultrabullet are shown:
 
-![Standard ratings](../images/elo-default.png)
+![Default ratings](../images/elo-default.png)
 
-### Alle Ratings anzeigen
+### Show all ratings
 
-Mit dem Befehl `!elo <user> all` lassen sich alle Ratings abrufen, das heißt auch Horde, Chess960, KingOfTheHill,
-Puzzle-Rating etc..
+Via `!elo <user> all` all available ratings are shown, which includes also Horde, Chess960, KingOfTheHill,
+Puzzle-Rating, Antichess etc..
 
-![Alle Ratings](../images/elo-all-ratings.png)
+![All ratings](../images/elo-all-ratings.png)
 
-Randinfo: statt `all` kann auch `alle` oder `*` geschrieben werden.
+Side note: you can also use `*` instead of `all`, so `!elo <user> *` then.
 
-> Hinweis: es werden nur Ratings angezeigt, für die auch ein Wert vorliegt. Wenn
-> z.B. jemand noch nie Antichess oder Chess960 gespielt hat, wird das auch nicht angezeigt - macht ja Sinn.
+> Note: this will only show ratings for game types you already played at all. So if you
+> never played a Chess960 game there is no Chess960 rating shown.
 
-### Selektive Ratings anzeigen
+### Show selective ratings
 
-Bei Bedarf können auch nur einzelne Ratings abgefragt werden, durch Komma getrennt auch mehrere davon, zum Beispiel
-mit `!elo <user> puzzle` oder `!elo <user> atomic,horde,bullet`.
+If needed you can show only the stats for a single type of game, for example `!elo <user> puzzle`. You can also provide
+more types separated by comma, like in `!elo <user> atomic,horde,bullet`.
 
-![Selektive Ratings](../images/elo-selektiv.png)
+![Selective ratings](../images/elo-selektiv.png)
 
-# Einrichtung
+# Setup
 
-## Einrichtung in StreamElements
+## Setup in StreamElements
 
-Gehe zu https://streamelements.com/dashboard/bot-commands/custom-commands und füge über den "Add new command" einen
-neuen Befehl hinzu.
+Open https://streamelements.com/dashboard/bot-commands/custom-commands and hit the "Add new command" button.
 
-Trage als "Command name" sowas wie `!elo` oder `!rating` ein. Welchen Befehlsnamen du dafür gern nehmen möchtest, ist
-ganz dir überlassen.
+For "Command name" type something like `!elo` or `!rating`.
 
-Bei Response muss nun folgendes eingegeben werden:
+For "Response" insert the following line:
 
 ```
 ${urlfetch https://xmgr.io/api/lichess/rating?username=${1|${user.name}}&type=${2|0}}
 ```
 
-Jetzt auf "Save" klicken um den Befehl zu speichern.
+Now click "Save" to save the command.
 
-## Einrichtung im Nightbot
+## Setup in Nightbot
 
-Gehe zu https://nightbot.tv/commands/custom und klicke rechts auf den Button
-"+ Add Command".
+Open https://nightbot.tv/commands/custom and hit the "+ Add Command" button.
 
-Gib bei "Command" den Namen des Befehls ein, z.B. `!elo`.
+For "Command" enter `!elo`.
 
-Als Message gib folgendes ein:
+In the "Message" text input field, insert the following line:
 
 ```
 $(urlfetch json https://xmgr.io/api/lichess/rating?username=$(querystring))
 ```
 
-Klicke den "Submit" button um den Befehl zu speichern.
+Click the "Submit" button to save your changes.
 
-# Anpassungen
+# Additional options
 
-## Befehl ohne Angabe des lichess Benutzernamens verwenden
+## Use the command without a given username
 
-Du kannst den Platzhalter für den Benutzernamen jeweils entfernen und direkt fest Deinen lichess Benutzernamen
-eintragen, sodass man mit Eingabe von `!elo` automatisch Dein Rating zu sehen bekommt.
+Alternatively you can put **your** literal lichess username instead of the
+[variable](help/variables.md). After that you'd only need to type `!elo` which then shows
+**your** stats in the chat.
 
-# Zusätzliche Funktionen (optional)
+# Custom API URL parameters (optional)
 
-Bei Bedarf gibt es die Möglichkeit, die API URL mit zusätzlichen Argumenten aufzurufen.
+If needed, there are optional parameters you can submit in the API URL.
 
-> Die Beispiel-URLS sind die realen API URL Adressen, das heißt du überträgst die
-> Parameter logischerweise sinngemäß in den Befehl.
+> The username (via parameter `username`) is usually mandatory, as you can see
+> in the URL: https://xmgr.io/api/lichess/rating?username=lichess_username
 
-> Der Benutzername wird mit `username` immer übergeben, das siehst du
-> an https://xmgr.io/api/lichess/rating?username=lichess_benutzername
+### Remove the icons
 
-### Icons entfernen
+Set `icon` to `0` to remove the game type emojies.
 
-Setze `icon` auf `0` um die Rating-Emojies zu entfernen.
+Example: https://xmgr.io/api/lichess/rating?icon=0&username=colt_tv
 
-Beispiel: https://xmgr.io/api/lichess/rating?icon=0&username=colt_tv
+### Remove progression arrows
 
-### Entwicklungs-Pfeile ausblenden
+To remove the progression arrows ↗ and ↘ set `prog` to `0`.
 
-Um die Entwicklungs-Pfeile ↗ und ↘ nicht anzuzeigen, setze `prog` auf `0`.
+Example: https://xmgr.io/api/lichess/rating?prog=0&username=schachpanda_yt
 
-Beispiel: https://xmgr.io/api/lichess/rating?prog=0&username=schachpanda_yt
+### Separator between game types
 
-### Separator zwischen Ratings
+You can pass any text as separator between the rating types via the `sep` parameter.
 
-Du kannst beliebigen Text zwischen die einzelnen Ratings setzen, indem du `sep` einen Wert gibst.
-
-Beispiel: https://xmgr.io/api/lichess/rating?sep=%20|%20&icon=0&username=orcatec
-
-### Einleitungstext weglassen
-
-Der Anfang mit "username's lichess Rating" kann weggelassen werden, indem `introtext` auf `0` gesetzt wird.
-
-Beispiel: https://xmgr.io/api/lichess/rating?username=willeinhelm&introtext=0
+Example: https://xmgr.io/api/lichess/rating?sep=%20|%20&icon=0&username=orcatec
