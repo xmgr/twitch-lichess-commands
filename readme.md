@@ -35,6 +35,10 @@ Zeigt mit `!lastgame <user>` das Ergebnis der von diesem Benutzer zuletzt gespie
 
 ![Letzte Partie](images/lastgame.png)
 
+## Aktuelles Simultan abfragen
+
+Zeigt mit `!simul` das aktuelle Simultan.
+
 ## Allgemeines zur Einrichtung
 
 Egal ob du Nightbot oder StreamElements benutzt, in jedem Fall muss der Bot Mod-Berechtigungen haben und dem Chat
