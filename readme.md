@@ -15,6 +15,7 @@ Um direkt zur Einrichtung zu springen:
 - [lichess Rating abrufen](de/rating.md) (`!elo <user>`)
 - [Spieldauer Statistik](de/playtime.md) (`!playtime <user>`)
 - [Letzte Partie abrufen](de/lastgame.md) (`!lastgame <user>`)
+- [Aktuelles Simul abfragen](de/simul.md) (`!simul`)
 
 ## lichess Rating abrufen ([Anleitung](de/rating.md))
 
@@ -35,9 +36,11 @@ Zeigt mit `!lastgame <user>` das Ergebnis der von diesem Benutzer zuletzt gespie
 
 ![Letzte Partie](images/lastgame.png)
 
-## Aktuelles Simultan abfragen
+## Aktuelles Simultan abfragen ([Anleitung](de/simul.md))
 
 Zeigt mit `!simul` das aktuelle Simultan.
+
+![Simul](images/simul.png)
 
 ## Allgemeines zur Einrichtung
 
