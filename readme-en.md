@@ -62,6 +62,7 @@ Those nice streamers already use the commands for their Twitch or Discord:
 - [chris1996](https://www.twitch.tv/chris1996)
 - [FritziSchach](https://www.twitch.tv/fritzischach)
 - [Willeinhelm](https://www.twitch.tv/willeinhelm)
+- [Ganzling](https://www.twitch.tv/ganzling)
 
 ## Support
 

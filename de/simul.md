@@ -34,7 +34,7 @@ Jetzt auf "Save" klicken um den Befehl zu speichern.
 Gehe zu https://nightbot.tv/commands/custom und klicke rechts auf den Button
 "+ Add Command".
 
-Gib bei "Command" den Namen des Befehls ein, z.B. `!lastgame`.
+Gib bei "Command" den Namen des Befehls ein, z.B. `!simul`.
 
 Als Message gib folgendes ein:
 

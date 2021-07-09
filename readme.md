@@ -64,6 +64,7 @@ Diese nicen Streamer nutzen die lichess Befehle bereits für ihr Twitch oder auf
 - [chris1996](https://www.twitch.tv/chris1996)
 - [FritziSchach](https://www.twitch.tv/fritzischach)
 - [Willeinhelm](https://www.twitch.tv/willeinhelm)
+- [Ganzling](https://www.twitch.tv/ganzling)
 
 ## Support
 
