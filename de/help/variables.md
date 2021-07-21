@@ -7,7 +7,7 @@ entsprechend zu ihrem tatsächlichen Wert aufgelöst.
 Diese Schreibweise kann je nachdem welchen Bot man 
 benutzt (Streamlabs, StreamElements oder Nightbot) unterschiedlich sein. Beispielsweise lässt sich
 der Benutzername des Benutzers der den Befehl ausgeführt (also im Chat eingetippt) hat 
-mit Streamlabs Chatbot über `$username` abfragen, bei StreamElements mit `${user.name}` und im
+mit Streamlabs Chatbot über `{user.name}` abfragen, bei StreamElements mit `${user.name}` und im
 Nightbot über `$(user)`.
 
 ## Referenz für verfügbare Variablen

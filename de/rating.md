@@ -53,7 +53,7 @@ ${urlfetch https://xmgr.io/api/lichess/rating?username=${1|${user.name}}&type=${
 
 Jetzt auf "Save" klicken um den Befehl zu speichern.
 
-## Einrichtung im Nightbot
+## Einrichtung in Nightbot
 
 Gehe zu https://nightbot.tv/commands/custom und klicke rechts auf den Button
 "+ Add Command".
@@ -64,6 +64,21 @@ Als Message gib folgendes ein:
 
 ```
 $(urlfetch json https://xmgr.io/api/lichess/rating?username=$(querystring))
+```
+
+Klicke den "Submit" button um den Befehl zu speichern.
+
+## Einrichtung in StreamLabs Chatbot
+
+Gehe zu https://streamlabs.com/dashboard#/cloudbot/commands/custom und klicke rechts auf den Button
+"Add Command".
+
+Gib bei "Command" den Namen des Befehls ein, z.B. `!elo`.
+
+Als Response gib folgendes ein:
+
+```
+{readapi.https://xmgr.io/api/lichess/rating/{1}}
 ```
 
 Klicke den "Submit" button um den Befehl zu speichern.

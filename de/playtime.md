@@ -31,7 +31,7 @@ ${urlfetch https://xmgr.io/api/lichess/playtime?username=${1}}
 
 Jetzt auf "Save" klicken um den Befehl zu speichern.
 
-## Einrichtung im Nightbot
+## Einrichtung in Nightbot
 
 Gehe zu https://nightbot.tv/commands/custom und klicke rechts auf den Button
 "+ Add Command".

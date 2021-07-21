@@ -4,7 +4,7 @@ Variables are placeholders who usually contain a dynamic value. A variable has t
 will be resolved to their actual value when using it.
 
 That notation can differ, depending on which bot you're using (StreamLabs, StreamElements or Nightbot). For instance,
-the username of the user that executed a command can be determined via the `$username`
+the username of the user that executed a command can be determined via the `{user.name}`
 variable in StreamLabs, with the variable `${user.name}` when using StreamElements or by using the `$(user)` variable in
 Nightbot.
 

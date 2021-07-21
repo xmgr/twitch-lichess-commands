@@ -3,7 +3,7 @@
 A nice collection of commands you can use in Twitch or Discord to fetch lichess ratings, general stats or the last played game.
 
 For all available commands there's a corresponding manual which describes how to easily setup
-them in **StreamElements**, **Nightbot** or **Discord**.
+them in **StreamElements**, **StreamLabs**, **Nightbot** or **Discord**.
 
 > Info: es gibt auch eine [deutsche Anleitung](readme.md).
 
@@ -47,7 +47,7 @@ but just for the sake of completeness.
 
 ### Discord integration
 
-If you're using Nightbot for these commands and Nightbot is integrated on your Discord server then
+If you're using Nightbot and Nightbot is integrated on your Discord server then
 you can already use all of its commands natively on Discord as well.
 To set this up, just open https://nightbot.tv/integrations and let the Nightbot join on your 
 Discord server - that's it already.
@@ -63,6 +63,7 @@ Those nice streamers already use the commands for their Twitch or Discord:
 - [FritziSchach](https://www.twitch.tv/fritzischach)
 - [Willeinhelm](https://www.twitch.tv/willeinhelm)
 - [Ganzling](https://www.twitch.tv/ganzling)
+- [GambitGambler](https://www.twitch.tv/gambitgambler)
 
 ## Support
 

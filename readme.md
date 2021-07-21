@@ -4,7 +4,7 @@ Eine kleine Sammlung an Befehlen um beispielsweise lichess ratings oder Spieldau
 direkt im Twitch Chat nutzen lassen.
 
 Für jede verfügbare Funktion ist hier eine Anleitung verlinkt, um die Befehle in
-**StreamElements**, **Nightbot** oder **Discord** einfach einzubinden.
+**StreamElements**, **StreamLabs**, **Nightbot** oder **Discord** einfach einzubinden.
 
 > Info: there's also an [english manual](readme-en.md) available.
 
@@ -44,14 +44,14 @@ Zeigt mit `!simul` das aktuelle Simultan.
 
 ## Allgemeines zur Einrichtung
 
-Egal ob du Nightbot oder StreamElements benutzt, in jedem Fall muss der Bot Mod-Berechtigungen haben und dem Chat
+Egal welchen Chatbot benutzt, in jedem Fall muss der Bot Mod-Berechtigungen haben und dem Chat
 beigetreten sein - ist zwar eine ganz offensichtliche Voraussetzung, aber ich erwähne es der Vollständigkeit halber
 trotzdem ;)
 
 ### Einrichtung auf Discord
 
-Wenn du die oberen Befehle für den Nightbot eingerichtet hast und dein Nightbot mit deinem Discord Server verknüpft ist,
-lassen sich die Befehle auch auf Discord benutzen. Rufe https://nightbot.tv/integrations auf und lasse einfach den
+Wenn du Nightbot verwendest und dein Nightbot mit deinem Discord Server verknüpft ist,
+lassen sich die dort eingerichteten Befehle auch auf Discord benutzen. Rufe https://nightbot.tv/integrations auf und lasse einfach den
 Nightbot per Klick auf deinen Discord Server joinen - das war's schon.
 
 ![Nightbot auf Discord](images/nightbot-discord.png)
@@ -65,6 +65,7 @@ Diese nicen Streamer nutzen die lichess Befehle bereits für ihr Twitch oder auf
 - [FritziSchach](https://www.twitch.tv/fritzischach)
 - [Willeinhelm](https://www.twitch.tv/willeinhelm)
 - [Ganzling](https://www.twitch.tv/ganzling)
+- [GambitGambler](https://www.twitch.tv/gambitgambler)
 
 ## Support
 

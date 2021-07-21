@@ -29,7 +29,7 @@ Statt `XXXXXXXX` fügst du entsprechend deinen lichess Benutzernamen ein.
 
 Jetzt auf "Save" klicken um den Befehl zu speichern.
 
-## Einrichtung im Nightbot
+## Einrichtung in Nightbot
 
 Gehe zu https://nightbot.tv/commands/custom und klicke rechts auf den Button
 "+ Add Command".

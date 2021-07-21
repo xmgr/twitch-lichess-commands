@@ -36,7 +36,7 @@ ${urlfetch https://xmgr.io/api/lichess/lastgame?username=${1|0}}
 
 Jetzt auf "Save" klicken um den Befehl zu speichern.
 
-## Einrichtung im Nightbot
+## Einrichtung in Nightbot
 
 Gehe zu https://nightbot.tv/commands/custom und klicke rechts auf den Button
 "+ Add Command".
