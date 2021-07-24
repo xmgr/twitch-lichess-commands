@@ -64,6 +64,7 @@ Those nice streamers already use the commands for their Twitch or Discord:
 - [Willeinhelm](https://www.twitch.tv/willeinhelm)
 - [Ganzling](https://www.twitch.tv/ganzling)
 - [GambitGambler](https://www.twitch.tv/gambitgambler)
+- [GunnysWorld](https://www.twitch.tv/gunnysworld)
 
 ## Support
 

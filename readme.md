@@ -66,6 +66,7 @@ Diese nicen Streamer nutzen die lichess Befehle bereits für ihr Twitch oder auf
 - [Willeinhelm](https://www.twitch.tv/willeinhelm)
 - [Ganzling](https://www.twitch.tv/ganzling)
 - [GambitGambler](https://www.twitch.tv/gambitgambler)
+- [GunnysWorld](https://www.twitch.tv/gunnysworld)
 
 ## Support
 
