@@ -2,6 +2,8 @@
 
 Der Befehl zeigt das das aktuelle Simultan.
 
+> INFO: funktioniert (derzeit) nur für laufende Simuls.
+
 ## Benutzung
 
 Einfach `!simul` eingeben.

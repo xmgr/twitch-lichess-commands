@@ -1,6 +1,8 @@
 # Fetch simul
 
-This command shows the current simul
+This command shows the current simul.
+
+> Note: this command works only for actively running simuls atm.
 
 ## Usage
 

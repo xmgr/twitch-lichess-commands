@@ -32,10 +32,6 @@ much time he spent on playing games on lichess in summary.
 
 Write `!lastgame <user>` to fetch the result of the most recently played game of the specified user.
 
-## Show current simul
-
-Type `!simul` to show a link to the current simul.
-
 
 ![Last game](images/lastgame.png)
 
