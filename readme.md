@@ -60,6 +60,8 @@ Diese nicen Streamer nutzen die lichess Befehle bereits für ihr Twitch oder auf
 - [Ganzling](https://www.twitch.tv/ganzling)
 - [GambitGambler](https://www.twitch.tv/gambitgambler)
 - [GunnysWorld](https://www.twitch.tv/gunnysworld)
+- [Lotnisko7](https://www.twitch.tv/lotnisko7)
+- [Schachopa](https://www.twitch.tv/schachopa)
 
 ## Support
 
