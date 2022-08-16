@@ -31,7 +31,7 @@ Trage als "Command name" sowas wie `!lastgame` ein. Welchen Befehlsnamen du daf√
 Bei Response muss nun folgendes eingegeben werden:
 
 ```
-${urlfetch https://xmgr.io/api/lichess/lastgame?username=${1|0}}
+${urlfetch https://xmgr.de/api/lichess/lastgame?username=${1|0}}
 ```
 
 Jetzt auf "Save" klicken um den Befehl zu speichern.
@@ -46,7 +46,7 @@ Gib bei "Command" den Namen des Befehls ein, z.B. `!lastgame`.
 Als Message gib folgendes ein:
 
 ```
-$(urlfetch json https://xmgr.io/api/lichess/lastgame?username=$(querystring))
+$(urlfetch json https://xmgr.de/api/lichess/lastgame?username=$(querystring))
 ```
 
 Klicke den "Submit" button um den Befehl zu speichern.
