@@ -44,7 +44,7 @@ For "Command name" type something like `!elo` or `!rating`.
 For "Response" insert the following line:
 
 ```
-${urlfetch https://xmgr.io/api/lichess/rating?username=${1|${user.name}}&type=${2|0}}
+${urlfetch https://xmgr.de/api/lichess/rating?username=${1|${user.name}}&type=${2|0}}
 ```
 
 Now click "Save" to save the command.
@@ -58,7 +58,7 @@ For "Command" enter `!elo`.
 In the "Message" text input field, insert the following line:
 
 ```
-$(urlfetch json https://xmgr.io/api/lichess/rating?username=$(querystring))
+$(urlfetch json https://xmgr.de/api/lichess/rating?username=$(querystring))
 ```
 
 Click the "Submit" button to save your changes.
@@ -76,22 +76,22 @@ Alternatively you can put **your** literal lichess username instead of the
 If needed, there are optional parameters you can submit in the API URL.
 
 > The username (via parameter `username`) is usually mandatory, as you can see
-> in the URL: https://xmgr.io/api/lichess/rating?username=lichess_username
+> in the URL: https://xmgr.de/api/lichess/rating?username=lichess_username
 
 ### Remove the icons
 
 Set `icon` to `0` to remove the game type emojies.
 
-Example: https://xmgr.io/api/lichess/rating?icon=0&username=colt_tv
+Example: https://xmgr.de/api/lichess/rating?icon=0&username=colt_tv
 
 ### Remove progression arrows
 
 To remove the progression arrows ↗ and ↘ set `prog` to `0`.
 
-Example: https://xmgr.io/api/lichess/rating?prog=0&username=schachpanda_yt
+Example: https://xmgr.de/api/lichess/rating?prog=0&username=schachpanda_yt
 
 ### Separator between game types
 
 You can pass any text as separator between the rating types via the `sep` parameter.
 
-Example: https://xmgr.io/api/lichess/rating?sep=%20|%20&icon=0&username=orcatec
+Example: https://xmgr.de/api/lichess/rating?sep=%20|%20&icon=0&username=orcatec
