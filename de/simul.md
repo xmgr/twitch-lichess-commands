@@ -24,7 +24,7 @@ Trage als "Command name" `!simul` ein. Welchen Befehlsnamen du dafür gern nehme
 Bei Response muss nun folgendes eingegeben werden:
 
 ```
-${urlfetch https://xmgr.io/api/lichess/simul/XXXXXXXX}
+${urlfetch https://xmgr.de/api/lichess/simul/XXXXXXXX}
 ```
 
 Statt `XXXXXXXX` fügst du entsprechend deinen lichess Benutzernamen ein.
@@ -41,7 +41,7 @@ Gib bei "Command" den Namen des Befehls ein, z.B. `!simul`.
 Als Message gib folgendes ein:
 
 ```
-$(urlfetch json https://xmgr.io/api/lichess/simul/XXXXXXXX)
+$(urlfetch json https://xmgr.de/api/lichess/simul/XXXXXXXX)
 ```
 
 Statt `XXXXXXXX` fügst du entsprechend deinen lichess Benutzernamen ein.
