@@ -29,7 +29,7 @@ For "Command name" enter something like `!lastgame`. What command name you choos
 Now insert the following for "Response":
 
 ```
-${urlfetch https://xmgr.io/api/lichess/lastgame?username=${1|0}}
+${urlfetch https://xmgr.de/api/lichess/lastgame?username=${1|0}}
 ```
 
 Now hit the "Save" to save your changes.
@@ -43,7 +43,7 @@ For "Command" type in your desired command name `!lastgame`.
 Insert the following line in the "Message" input field:
 
 ```
-$(urlfetch json https://xmgr.io/api/lichess/lastgame?username=$(querystring))
+$(urlfetch json https://xmgr.de/api/lichess/lastgame?username=$(querystring))
 ```
 
 Hit the "Submit" button to save your changes.
