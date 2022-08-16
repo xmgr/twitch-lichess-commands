@@ -66,8 +66,3 @@ Diese nicen Streamer nutzen die lichess Befehle bereits für ihr Twitch oder auf
 ## Support
 
 Bei Fragen, schreib mir gerne auf Discord (`xmgr#2295`) oder [Telegram](https://t.me/xmgr1).
-
-## Credits
-
-Daumen-Hoch geht raus an [Willeinhelm](https://www.twitch.tv/willeinhelm)
-und [Wuestenigel](https://www.twitch.tv/wuestenigel) die den Denkanstoß für diese Idee gezündet haben :)
