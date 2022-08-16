@@ -22,7 +22,7 @@ As "Command name" write `!simul`. Which command name you're using doesn't matter
 For "Response", insert the following line:
 
 ```
-${urlfetch https://xmgr.io/api/lichess/simul/XXXXXXXX}
+${urlfetch https://xmgr.de/api/lichess/simul/XXXXXXXX}
 ```
 
 Replace `XXXXXXXX` with your lichess username.
@@ -38,7 +38,7 @@ For "Command" enter something like `!simul`.
 For "Message" insert the following line:
 
 ```
-$(urlfetch json https://xmgr.io/api/lichess/simul/XXXXXXXX)
+$(urlfetch json https://xmgr.de/api/lichess/simul/XXXXXXXX)
 ```
 
 Replace `XXXXXXXX` with your lichess username
