@@ -26,7 +26,7 @@ Trage als "Command name" sowas wie `!playtime` ein. Welchen Befehlsnamen du daf√
 Bei Response muss nun folgendes eingegeben werden:
 
 ```
-${urlfetch https://xmgr.io/api/lichess/playtime?username=${1}}
+${urlfetch https://xmgr.de/api/lichess/playtime?username=${1}}
 ```
 
 Jetzt auf "Save" klicken um den Befehl zu speichern.
@@ -41,7 +41,7 @@ Gib bei "Command" den Namen des Befehls ein, z.B. `!playtime`.
 Als Message gib folgendes ein:
 
 ```
-$(urlfetch json https://xmgr.io/api/lichess/playtime?username=$(querystring))
+$(urlfetch json https://xmgr.de/api/lichess/playtime?username=$(querystring))
 ```
 
 Klicke den "Submit" button um den Befehl zu speichern.
