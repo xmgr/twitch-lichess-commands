@@ -23,7 +23,7 @@ For "Command name" type `!playtime` (or something else).
 For the "Response" please insert the following line:
 
 ```
-${urlfetch https://xmgr.de/api/lichess/playtime?username=${1}}
+${urlfetch https://xmgr.de/api/lichess/playtime/${1}}
 ```
 
 Click the "Save" button to save your changes.
@@ -37,7 +37,7 @@ For "Command" enter `!playtime` (or something else).
 In the "Message" input field, insert the following line:
 
 ```
-$(urlfetch json https://xmgr.de/api/lichess/playtime?username=$(querystring))
+$(urlfetch json https://xmgr.de/api/lichess/playtime/$(querystring))
 ```
 
 Now hit the "Submit" button to save your command.
