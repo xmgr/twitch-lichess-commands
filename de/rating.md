@@ -48,7 +48,7 @@ ganz dir überlassen.
 Bei Response muss nun folgendes eingegeben werden:
 
 ```
-${urlfetch https://xmgr.de/api/lichess/rating/${1|${user.name}}&type=${2|0}}
+${urlfetch https://xmgr.de/api/lichess/rating/${1|${user.name}}?type=${2|0}}
 ```
 
 Jetzt auf "Save" klicken um den Befehl zu speichern.
