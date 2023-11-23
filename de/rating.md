@@ -48,7 +48,7 @@ ganz dir überlassen.
 Bei Response muss nun folgendes eingegeben werden:
 
 ```
-${urlfetch https://xmgr.de/api/lichess/rating?username=${1|${user.name}}&type=${2|0}}
+${urlfetch https://xmgr.de/api/lichess/rating/${1|${user.name}}&type=${2|0}}
 ```
 
 Jetzt auf "Save" klicken um den Befehl zu speichern.
@@ -63,7 +63,7 @@ Gib bei "Command" den Namen des Befehls ein, z.B. `!elo`.
 Als Message gib folgendes ein:
 
 ```
-$(urlfetch json https://xmgr.io/api/lichess/rating?username=$(querystring))
+$(urlfetch json https://xmgr.de/api/lichess/rating/$(querystring))
 ```
 
 Klicke den "Submit" button um den Befehl zu speichern.
@@ -97,29 +97,30 @@ Bei Bedarf gibt es die Möglichkeit, die API URL mit zusätzlichen Argumenten au
 > Die Beispiel-URLS sind die realen API URL Adressen, das heißt du überträgst die
 > Parameter logischerweise sinngemäß in den Befehl.
 
-> Der Benutzername wird mit `username` immer übergeben, das siehst du
-> an https://xmgr.de/api/lichess/rating?username=lichess_benutzername
+> Der Benutzername wird mit `username` übergeben oder als URL Pfad angehängt:
+> https://xmgr.de/api/lichess/rating/LICHESS_USERNAME oder eben
+> https://xmgr.de/api/lichess/rating?username=LICHESS_USERNAME
 
 ### Icons entfernen
 
 Setze `icon` auf `0` um die Rating-Emojies zu entfernen.
 
-Beispiel: https://xmgr.de/api/lichess/rating?icon=0&username=colt_tv
+Beispiel: https://xmgr.de/api/lichess/rating/LICHESS_USERNAME?icon=0
 
 ### Entwicklungs-Pfeile ausblenden
 
 Um die Entwicklungs-Pfeile ↗ und ↘ nicht anzuzeigen, setze `prog` auf `0`.
 
-Beispiel: https://xmgr.de/api/lichess/rating?prog=0&username=schachpanda_yt
+Beispiel: https://xmgr.de/api/lichess/rating/LICHESS_USERNAME?prog=0
 
 ### Separator zwischen Ratings
 
 Du kannst beliebigen Text zwischen die einzelnen Ratings setzen, indem du `sep` einen Wert gibst.
 
-Beispiel: https://xmgr.de/api/lichess/rating?sep=%20|%20&icon=0&username=orcatec
+Beispiel: https://xmgr.de/api/lichess/rating/LICHESS_USERNAME?sep=%20|%20&icon=0
 
 ### Einleitungstext weglassen
 
 Der Anfang mit "username's lichess Rating" kann weggelassen werden, indem `introtext` auf `0` gesetzt wird.
 
-Beispiel: https://xmgr.de/api/lichess/rating?username=willeinhelm&introtext=0
+Beispiel: https://xmgr.de/api/lichess/rating/LICHESS_USERNAME?introtext=0
