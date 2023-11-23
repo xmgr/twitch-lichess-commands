@@ -31,7 +31,7 @@ Trage als "Command name" sowas wie `!lastgame` ein. Welchen Befehlsnamen du daf�
 Bei Response muss nun folgendes eingegeben werden:
 
 ```
-${urlfetch https://xmgr.de/api/lichess/lastgame?username=${1|0}}
+${urlfetch https://xmgr.de/api/lichess/lastgame/${1|0}}
 ```
 
 Jetzt auf "Save" klicken um den Befehl zu speichern.
@@ -46,7 +46,7 @@ Gib bei "Command" den Namen des Befehls ein, z.B. `!lastgame`.
 Als Message gib folgendes ein:
 
 ```
-$(urlfetch json https://xmgr.de/api/lichess/lastgame?username=$(querystring))
+$(urlfetch json https://xmgr.de/api/lichess/lastgame/$(querystring))
 ```
 
 Klicke den "Submit" button um den Befehl zu speichern.
@@ -59,6 +59,6 @@ Natürlich hast du auch die Möglichkeit, im Befehl statt der Variable direkt De
 reinzuschreiben. Somit kann man dann im Chat einfach nur `!lastgame` eingeben und man wird Dein letztes Spiel sehen.
 
 Alternativ lässt sich das erweitern, sodass man Dein letztes Spiel mit einem bestimmten Gegner abfragen kann, indem man
-den entsprechenden Part bei Nightbot in der Form `...?username=BENUTZERNAME:$(querystring)` schreibt bzw für
-StreamElements mit `...?username=BENUTZERNAME:${1|0}`. Im Chat würde man dann `!lastgame ABC` eingeben und man quasi
-würde die letzte Partie von "BENUTZERNAME" gegen "ABC" sehen.
+den entsprechenden Part bei Nightbot in der Form `...?username=LICHESS_USERNAME:$(querystring)` schreibt bzw für
+StreamElements mit `...?username=LICHESS_USERNAME:${1|0}`. Im Chat würde man dann `!lastgame ABC` eingeben und man quasi
+würde die letzte Partie von "LICHESS_USERNAME" gegen "ABC" sehen.
