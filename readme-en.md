@@ -1,6 +1,6 @@
 # Lichess commands for Twitch chats
 
-A nice collection of commands you can use in Twitch or Discord to fetch lichess ratings, general stats or the last played game.
+A nice collection of commands you can use in Twitch or Discord to fetch Lichess ratings, general stats or the last played game.
 
 For all available commands there's a corresponding manual which describes how to easily setup
 them in **StreamElements**, **StreamLabs**, **Nightbot** or **Discord**.
@@ -11,20 +11,20 @@ them in **StreamElements**, **StreamLabs**, **Nightbot** or **Discord**.
 
 If you wanna directly dive into setup manual:
 
-- [lichess rating](en/rating.md) (`!elo <user>`)
+- [Lichess rating](en/rating.md) (`!elo <user>`)
 - [Playtime stats](en/playtime.md) (`!playtime <user>`)
 - [Last played game results](en/lastgame.md) (`!lastgame <user>`)
 
-## Show lichess rating ([Manual](en/rating.md))
+## Show Lichess rating ([Manual](en/rating.md))
 
-By entering `!elo <user>` the rating of a lichess user is shown in the chat:
+By entering `!elo <user>` the rating of a Lichess user is shown in the chat:
 
-![lichess rating](images/lichess-rating-example.png)
+![Lichess rating](images/lichess-rating-example.png)
 
 ## General stats ([Manual](en/playtime.md))
 
 Just type `!playtime <user>` to see how many games that user has already played and how
-much time he spent on playing games on lichess in summary.
+much time he spent on playing games on Lichess in summary.
 
 ![Playtime](images/playtime-example.png)
 

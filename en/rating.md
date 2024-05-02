@@ -1,23 +1,23 @@
 # Show Lichess Rating in Chat
 
-This command fetches the lichess ratings for a given user.
+This command fetches the Lichess ratings for a given user.
 
 ## Usage
 
 The usage is quite simple, you type `!elo <user>` and that's it.
 
-> the upper-/lower case for the lichess username doesn't matter
+> the upper-/lower case for the Lichess username doesn't matter
 
 ### Fetch common ratings (default)
 
-By default the ratings for classical, rapid, blitz, bullet and ultrabullet are shown:
+By default, the ratings for classical, rapid, blitz, bullet and ultrabullet are shown:
 
 ![Default ratings](../images/elo-default.png)
 
 ### Show all ratings
 
 Via `!elo <user> all` all available ratings are shown, which includes also Horde, Chess960, KingOfTheHill,
-Puzzle-Rating, Antichess etc..
+Puzzle-Rating, Antichess etc.
 
 ![All ratings](../images/elo-all-ratings.png)
 

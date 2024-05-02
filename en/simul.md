@@ -25,7 +25,7 @@ For "Response", insert the following line:
 ${urlfetch https://xmgr.de/api/lichess/simul/XXXXXXXX}
 ```
 
-Replace `XXXXXXXX` with your lichess username.
+Replace `XXXXXXXX` with your Lichess username.
 
 Now hit the "Save" button to save the command.
 
@@ -41,6 +41,6 @@ For "Message" insert the following line:
 $(urlfetch json https://xmgr.de/api/lichess/simul/XXXXXXXX)
 ```
 
-Replace `XXXXXXXX` with your lichess username
+Replace `XXXXXXXX` with your Lichess username
 
 Now click "Submit" to save your changes.

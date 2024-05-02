@@ -27,7 +27,7 @@ Bei Response muss nun folgendes eingegeben werden:
 ${urlfetch https://xmgr.de/api/lichess/simul/XXXXXXXX}
 ```
 
-Statt `XXXXXXXX` fügst du entsprechend deinen lichess Benutzernamen ein.
+Statt `XXXXXXXX` fügst du entsprechend deinen Lichess Benutzernamen ein.
 
 Jetzt auf "Save" klicken um den Befehl zu speichern.
 
@@ -44,6 +44,6 @@ Als Message gib folgendes ein:
 $(urlfetch json https://xmgr.de/api/lichess/simul/XXXXXXXX)
 ```
 
-Statt `XXXXXXXX` fügst du entsprechend deinen lichess Benutzernamen ein.
+Statt `XXXXXXXX` fügst du entsprechend deinen Lichess Benutzernamen ein.
 
 Klicke den "Submit" button um den Befehl zu speichern.

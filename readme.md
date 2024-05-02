@@ -1,6 +1,6 @@
 # Lichess Befehle für Twitch Chats
 
-Eine kleine Sammlung an Befehlen um beispielsweise lichess ratings oder Spieldauer-Statistiken abzurufen, die sich
+Eine kleine Sammlung an Befehlen um beispielsweise Lichess ratings oder Spieldauer-Statistiken abzurufen, die sich
 direkt im Twitch Chat nutzen lassen.
 
 Für jede verfügbare Funktion ist hier eine Anleitung verlinkt, um die Befehle in
@@ -12,19 +12,19 @@ Für jede verfügbare Funktion ist hier eine Anleitung verlinkt, um die Befehle 
 
 Um direkt zur Einrichtung zu springen:
 
-- [lichess Rating abrufen](de/rating.md) (`!elo <user>`)
+- [Lichess Rating abrufen](de/rating.md) (`!elo <user>`)
 - [Spieldauer Statistik](de/playtime.md) (`!playtime <user>`)
 - [Letzte Partie abrufen](de/lastgame.md) (`!lastgame <user>`)
 
-## lichess Rating abrufen ([Anleitung](de/rating.md))
+## Lichess Rating abrufen ([Anleitung](de/rating.md))
 
-Durch Eingabe von `!elo <user>` lässt sich das lichess Rating im Chat ausgeben.
+Durch Eingabe von `!elo <user>` lässt sich das Lichess Rating im Chat ausgeben.
 
-![lichess rating](images/lichess-rating-example.png)
+![Lichess rating](images/lichess-rating-example.png)
 
 ## Spieldauer Statistik ([Anleitung](de/playtime.md))
 
-Einfach `!playtime <user>` eingeben, um zu sehen wieviele Partien der lichess Benutzer bereits gespielt und wieviel Zeit
+Einfach `!playtime <user>` eingeben, um zu sehen wieviele Partien der Lichess Benutzer bereits gespielt und wieviel Zeit
 er insgesamt mit Schachspielen verbracht hat.
 
 ![Playtime](images/playtime-example.png)
@@ -38,8 +38,7 @@ Zeigt mit `!lastgame <user>` das Ergebnis der von diesem Benutzer zuletzt gespie
 ## Allgemeines zur Einrichtung
 
 Egal welchen Chatbot benutzt, in jedem Fall muss der Bot Mod-Berechtigungen haben und dem Chat
-beigetreten sein - ist zwar eine ganz offensichtliche Voraussetzung, aber ich erwähne es der Vollständigkeit halber
-trotzdem ;)
+beigetreten sein - ist zwar eine offensichtliche Voraussetzung, aber es sei der Vollständigkeit halber nochmal erwähnt.
 
 ### Einrichtung auf Discord
 
@@ -51,7 +50,7 @@ Nightbot per Klick auf deinen Discord Server joinen - das war's schon.
 
 ## In Aktion
 
-Diese nicen Streamer nutzen die lichess Befehle bereits für ihr Twitch oder auf ihren Discord Servern:
+Diese nicen Streamer nutzen die Lichess Befehle bereits für ihr Twitch oder auf ihren Discord Servern:
 
 - [Colt_TV1](https://www.twitch.tv/colt_tv1)
 - [chris1996](https://www.twitch.tv/chris1996)
@@ -65,4 +64,4 @@ Diese nicen Streamer nutzen die lichess Befehle bereits für ihr Twitch oder auf
 
 ## Support
 
-Bei Fragen, schreib mir gerne auf Discord (`xmgr#2295`) oder [Telegram](https://t.me/xmgr1).
+Bei Fragen, schreib mir gerne auf Discord (`xmgr#2295`).

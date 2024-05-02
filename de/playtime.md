@@ -1,15 +1,15 @@
 # Spieldauer Statistik
 
-Der Befehl holt sich für den angegebenen lichess Benutzer die Anzahl gespielter Partien sowie die Dauer die man auf
-lichess insgesamt mit Schachspielen verbracht hat.
+Der Befehl holt sich für den angegebenen Lichess Benutzer die Anzahl gespielter Partien sowie die Dauer die man auf
+Lichess insgesamt mit Schachspielen verbracht hat.
 
 ## Benutzung
 
-Die Nutzung des Befehls ist sehr einfach, man gibt `!playtime <user>` ein, wobei `<user>` der Benutzername des lichess
+Die Nutzung des Befehls ist sehr einfach, man gibt `!playtime <user>` ein, wobei `<user>` der Benutzername des Lichess
 Accounts ist. Statt `!playtime` kannst du natürlich gern auch etwas anderes als Befehlsnamen verwenden, das ist dir
 überlassen.
 
-> Die Groß-/Kleinschreibung des lichess Benutzernamens spielt keine Rolle ;)
+> Die Groß-/Kleinschreibung des Lichess Benutzernamens spielt keine Rolle ;)
 
 ![img.png](../images/playtime-fritzi.png)
 

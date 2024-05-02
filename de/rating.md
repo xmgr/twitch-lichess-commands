@@ -1,14 +1,14 @@
 # Lichess Rating im Chat abfragen
 
-Der Befehl holt sich für den angegebenen Benutzer die lichess Ratings und gibt sie im Chat aus.
+Der Befehl holt sich für den angegebenen Benutzer die Lichess Ratings und gibt sie im Chat aus.
 
 ## Benutzung
 
-Die Nutzung des Befehls ist sehr einfach, man gibt `!elo <user>` ein, wobei `<user>` der Benutzername des lichess
+Die Nutzung des Befehls ist sehr einfach, man gibt `!elo <user>` ein, wobei `<user>` der Benutzername des Lichess
 Accounts ist. Statt `!elo` kannst du natürlich gern auch etwas anderes als Befehlsnamen verwenden, wie z.B. `!rating` -
 das ist dir überlassen.
 
-> Die Groß-/Kleinschreibung des lichess Benutzernamens spielt keine Rolle ;)
+> Die Groß-/Kleinschreibung des Lichess Benutzernamens spielt keine Rolle ;)
 
 ### Geläufige Ratings abrufen
 

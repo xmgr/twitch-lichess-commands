@@ -1,4 +1,4 @@
-# Letzte lichess Partie anzeigen
+# Letzte Lichess Partie anzeigen
 
 Der Befehl zeigt das Ergebnis der letzten gespielten Partie dieses Benutzers.
 
@@ -7,7 +7,7 @@ Der Befehl zeigt das Ergebnis der letzten gespielten Partie dieses Benutzers.
 Einfach `!lastgame <user>` eingeben, um die Ergebnisse der zuletzt gespielten Partie anzuzeigen. Der ⭐ Stern zeigt an,
 wer der Gewinner war, die schwarzen und weßen Kreise entsprechend die Figurenfarbe der Spieler.
 
-> Die Groß-/Kleinschreibung des lichess Benutzernamens spielt keine Rolle ;)
+> Die Groß-/Kleinschreibung des Lichess Benutzernamens spielt keine Rolle ;)
 
 ![Letzte Partie](../images/lastgame-default.png)
 

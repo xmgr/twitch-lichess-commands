@@ -1,13 +1,13 @@
-# Show last lichess game
+# Show last Lichess game
 
-This command shows the result and stats of the last game played on lichess.
+This command shows the result and stats of the last game played on Lichess.
 
 ## Usage
 
-Just type `!lastgame <user>` to show the last game of the specified lichess user. In the output, the ⭐ indicates the
+Just type `!lastgame <user>` to show the last game of the specified Lichess user. In the output, the ⭐ indicates the
 winner and the white and black circles the pieces' color.
 
-> The upper / lower case of the lichess username does not matter;)
+> The upper / lower case of the Lichess username does not matter;)
 
 ![Last game](../images/lastgame-default.png)
 
