@@ -62,36 +62,3 @@ $(urlfetch json https://xmgr.de/api/lichess/rating/$(querystring))
 ```
 
 Click the "Submit" button to save your changes.
-
-# Additional options
-
-## Use the command without a given username
-
-Alternatively you can put **your** literal lichess username instead of the
-[variable](help/variables.md). After that you'd only need to type `!elo` which then shows
-**your** stats in the chat.
-
-# Custom API URL parameters (optional)
-
-If needed, there are optional parameters you can submit in the API URL.
-
-> The username (via parameter `username`) is usually mandatory, as you can see
-> in the URL: https://xmgr.de/api/lichess/rating?username=LICHESS_USERNAME but you can alternatively put the username just to the path like in https://xmgr.de/api/lichess/rating/LICHESS_USERNAME
-
-### Remove the icons
-
-Set `icon` to `0` to remove the game type emojies.
-
-Example: https://xmgr.de/api/lichess/rating/LICHESS_USERNAME?icon=0
-
-### Remove progression arrows
-
-To remove the progression arrows ↗ and ↘ set `prog` to `0`.
-
-Example: https://xmgr.de/api/lichess/rating/LICHESS_USERNAME?prog=0
-
-### Separator between game types
-
-You can pass any text as separator between the rating types via the `sep` parameter.
-
-Example: https://xmgr.de/api/lichess/rating/LICHESS_USERNAME?sep=%20|%20&icon=0

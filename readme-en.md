@@ -35,7 +35,7 @@ Write `!lastgame <user>` to fetch the result of the most recently played game of
 
 ![Last game](images/lastgame.png)
 
-## General setup informations
+## General setup information
 
 No matter if you're using StreamElements or Nightbot for the commands, the corresponding
 bot MUST definitely own Mod permissions and join the channel - that might be an obvious requirement

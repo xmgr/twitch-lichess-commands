@@ -47,16 +47,3 @@ $(urlfetch json https://xmgr.de/api/lichess/lastgame/$(querystring))
 ```
 
 Hit the "Submit" button to save your changes.
-
-# Additional options
-
-## Use command without typing in the username
-
-Alternatively you could put your literal lichess username instead of the [variables](help/variables.md). In this case,
-**your** last game will be shown when writing `!lastgame` in the chat.
-
-Additionally you can also modify the command to show **your** last game played with a specified opponent when putting a
-username as argument in the chat. So for StreamElements this could be written like `...?username=LICHESS_USERNAME:${1|0}` or
-like
-`...?username=LICHESS_USERNAME:${1|0}` in Nightbot. Then, when a user types `!lastgame ABC` the last game between LICHESS_USERNAME and
-ABC would be shown.

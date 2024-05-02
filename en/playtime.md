@@ -41,11 +41,3 @@ $(urlfetch json https://xmgr.de/api/lichess/playtime/$(querystring))
 ```
 
 Now hit the "Submit" button to save your command.
-
-# Additional options
-
-## Use command without typing the username
-
-Alternatively you could just put your literal lichess username instead of the [variable](help/variables.md). Using the
-`!playtime` command would then always response with the data for your account and you wouldn't need
-to type in the lichess username after the command anymore.

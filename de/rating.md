@@ -26,7 +26,7 @@ Puzzle-Rating etc..
 Randinfo: statt `all` kann auch `alle` oder `*` geschrieben werden.
 
 > Hinweis: es werden nur Ratings angezeigt, für die auch ein Wert vorliegt. Wenn
-> z.B. jemand noch nie Antichess oder Chess960 gespielt hat, wird das auch nicht angezeigt - macht ja Sinn.
+> man noch nie Antichess oder Chess960 gespielt hat, wird das entsprechend auch nicht mit gelistet.
 
 ### Selektive Ratings anzeigen
 
@@ -82,45 +82,3 @@ Als Response gib folgendes ein:
 ```
 
 Klicke den "Submit" button um den Befehl zu speichern.
-
-# Anpassungen
-
-## Befehl ohne Angabe des lichess Benutzernamens verwenden
-
-Du kannst den Platzhalter für den Benutzernamen jeweils entfernen und direkt fest Deinen lichess Benutzernamen
-eintragen, sodass man mit Eingabe von `!elo` automatisch Dein Rating zu sehen bekommt.
-
-# Zusätzliche Funktionen (optional)
-
-Bei Bedarf gibt es die Möglichkeit, die API URL mit zusätzlichen Argumenten aufzurufen.
-
-> Die Beispiel-URLS sind die realen API URL Adressen, das heißt du überträgst die
-> Parameter logischerweise sinngemäß in den Befehl.
-
-> Der Benutzername wird mit `username` übergeben oder als URL Pfad angehängt:
-> https://xmgr.de/api/lichess/rating/LICHESS_USERNAME oder eben
-> https://xmgr.de/api/lichess/rating?username=LICHESS_USERNAME
-
-### Icons entfernen
-
-Setze `icon` auf `0` um die Rating-Emojies zu entfernen.
-
-Beispiel: https://xmgr.de/api/lichess/rating/LICHESS_USERNAME?icon=0
-
-### Entwicklungs-Pfeile ausblenden
-
-Um die Entwicklungs-Pfeile ↗ und ↘ nicht anzuzeigen, setze `prog` auf `0`.
-
-Beispiel: https://xmgr.de/api/lichess/rating/LICHESS_USERNAME?prog=0
-
-### Separator zwischen Ratings
-
-Du kannst beliebigen Text zwischen die einzelnen Ratings setzen, indem du `sep` einen Wert gibst.
-
-Beispiel: https://xmgr.de/api/lichess/rating/LICHESS_USERNAME?sep=%20|%20&icon=0
-
-### Einleitungstext weglassen
-
-Der Anfang mit "username's lichess Rating" kann weggelassen werden, indem `introtext` auf `0` gesetzt wird.
-
-Beispiel: https://xmgr.de/api/lichess/rating/LICHESS_USERNAME?introtext=0

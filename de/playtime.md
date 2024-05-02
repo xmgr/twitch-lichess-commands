@@ -46,9 +46,3 @@ $(urlfetch json https://xmgr.de/api/lichess/playtime/$(querystring))
 
 Klicke den "Submit" button um den Befehl zu speichern.
 
-# Anpassungen
-
-## Statistik ohne Angabe des Benutzernamens verwenden
-
-Du kannst in der API URL statt der Variable auch direkt deinen lichess Benutzernamen eintragen. So kann man im Chat
-durch Eingabe von `!playtime` immer dein Rating sehen.
