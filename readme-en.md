@@ -62,6 +62,12 @@ Discord server - that's it already.
 
 ![Commands on Discord](images/nightbot-discord.png)
 
+### Own server
+
+All commands run on xmgr.de, you don't need to install anything. If you'd rather run them yourself,
+[lichess.php](lichess.php) is a single PHP script that gives exactly the same answers. See
+[Own server](en/self-hosting.md) for how to set it up.
+
 ## See it in action
 
 Those nice streamers already use the commands for their Twitch or Discord:

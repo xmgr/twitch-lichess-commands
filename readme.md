@@ -58,6 +58,12 @@ Nightbot per Klick auf deinen Discord Server joinen - das war's schon.
 
 ![Nightbot auf Discord](images/nightbot-discord.png)
 
+### Eigener Server
+
+Alle Befehle laufen über xmgr.de, du musst nichts installieren. Wer sie lieber selbst betreiben will, findet mit
+[lichess.php](lichess.php) ein einzelnes PHP-Skript, das genau dieselben Antworten liefert. Wie das geht, steht unter
+[Eigener Server](de/self-hosting.md).
+
 ## In Aktion
 
 Diese nicen Streamer nutzen die Lichess Befehle bereits für ihr Twitch oder auf ihren Discord Servern:

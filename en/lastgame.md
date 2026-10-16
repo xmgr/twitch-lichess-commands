@@ -21,6 +21,8 @@ so `!lastgame <user1>:<user2>`.
 
 # Setup
 
+> Prefer your own server? That works too, see [Own server](self-hosting.md).
+
 ## Setup in StreamElements
 
 Open https://streamelements.com/dashboard/bot-commands/custom-commands and hit the "Add new command" button.

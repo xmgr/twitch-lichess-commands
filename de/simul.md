@@ -14,6 +14,8 @@ Das ⏱ Simultan "taller simul" (2 Teilnehmer) läuft bereits: https://lichess.o
 
 # Einrichtung
 
+> Lieber auf dem eigenen Server? Das geht auch, siehe [Eigener Server](self-hosting.md).
+
 ## Einrichtung in StreamElements
 
 Gehe zu https://streamelements.com/dashboard/bot-commands/custom-commands und füge über den "Add new command" einen

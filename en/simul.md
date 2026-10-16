@@ -14,6 +14,8 @@ The ⏱ simul "taller simul" (2 participants) is already running: https://liches
 
 # Setup
 
+> Prefer your own server? That works too, see [Own server](self-hosting.md).
+
 ## Setup in StreamElements
 
 Open https://streamelements.com/dashboard/bot-commands/custom-commands and hit the "Add new command" button.

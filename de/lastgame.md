@@ -21,6 +21,8 @@ Accountnamen des gegnerischen Spielers an, also `!lastgame <user1>:<user2>`.
 
 # Einrichtung
 
+> Lieber auf dem eigenen Server? Das geht auch, siehe [Eigener Server](self-hosting.md).
+
 ## Einrichtung in StreamElements
 
 Gehe zu https://streamelements.com/dashboard/bot-commands/custom-commands und füge über den "Add new command" einen
